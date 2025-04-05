@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>保養品網站</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #1a1a1a;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+        header h1 {
+            font-size: 50px;
+            margin: 0;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            float: left;
+        }
+        nav a:hover {
+            background-color: #e67e22;
+        }
+        .banner {
+            background-image: url('https://via.placeholder.com/1600x600.png?text=High+Quality+Products');
+            background-size: cover;
+            background-position: center;
+            height: 600px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .banner h2 {
+            font-size: 60px;
+            font-weight: bold;
+            margin: 0;
+        }
+        .container {
+            padding: 50px 20px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .product {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 280px;
+            margin: 15px;
+            text-align: center;
+            overflow: hidden;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .product h3 {
+            font-size: 24px;
+            color: #333;
+            margin: 15px 0;
+        }
+        .product p {
+            font-size: 16px;
+            color: #777;
+            margin: 0 15px 15px;
+        }
+        .product .price {
+            font-size: 20px;
+            color: #e67e22;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .product button {
+            background-color: #e67e22;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 5px;
+        }
+        .product button:hover {
+            background-color: #d35400;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 頭部區域 -->
+    <header>
+        <h1>保養品購物網站</h1>
+    </header>
+
+    <!-- 導覽列 -->
+    <nav>
+        <a href="#">首頁</a>
+        <a href="#">產品</a>
+        <a href="#">關於我們</a>
+        <a href="#">聯繫我們</a>
+    </nav>
+
+    <!-- 首頁大圖 -->
+    <div class="banner">
+        <h2>專屬於你的奢華體驗</h2>
+    </div>
+
+    <!-- 產品展示區 -->
+    <div class="container">
+        <!-- 產品1 -->
+        <div class="product">
+            <img src="https://via.placeholder.com/280x280.png?text=產品+1" alt="產品1">
+            <h3>奢華面霜</h3>
+            <p>滋養、修復肌膚，打造完美光澤。</p>
+            <div class="price">$1500</div>
+            <button>加入購物車</button>
+        </div>
+
+        <!-- 產品2 -->
+        <div class="product">
+            <img src="https://via.placeholder.com/280x280.png?text=產品+2" alt="產品2">
+            <h3>高效抗老精華</h3>
+            <p>抗衰老，提升肌膚彈性。</p>
+            <div class="price">$2000</div>
+            <button>加入購物車</button>
+        </div>
+
+        <!-- 產品3 -->
+        <div class="product">
+            <img src="https://via.placeholder.com/280x280.png?text=產品+3" alt="產品3">
+            <h3>水潤保濕面膜</h3>
+            <p>深層滋潤，補水亮膚。</p>
+            <div class="price">$1200</div>
+            <button>加入購物車</button>
+        </div>
+
+        <!-- 產品4 -->
+        <div class="product">
+            <img src="https://via.placeholder.com/280x280.png?text=產品+4" alt="產品4">
+            <h3>潔面泡沫</h3>
+            <p>溫和潔淨，讓肌膚清新。</p>
+            <div class="price">$800</div>
+            <button>加入購物車</button>
+        </div>
+    </div>
+
+    <!-- 頁腳區域 -->
+    <footer>
+        <p>&copy; 2025 保養品 版權所有.</p>
+    </footer>
+
+</body>
+</html>
